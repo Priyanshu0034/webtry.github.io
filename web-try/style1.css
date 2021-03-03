@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50%;
+    height:100px;
+}
+
+.logo h1 {
+    float: right;
+    line-height: 100px;
+    padding-right: 400px;
+    font-size: 39px;
+    font-family: 'Akaya Teliviga', cursive;
+    
+}
+
+.logo img {
+    padding-top: 8px;
+}
+
+.menu {
+    width:50%;
+    height: 100px;
+}
+
+.menu ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-size: 17px;
+    font-family: 'Akaya Teliviga', cursive;
+    justify-content: space-around;
+    color: rgb(197, 197, 197);
+    flex-direction: row;
+    padding-top: 30px;
+
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.header1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('mountains.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 78%, 0% 100% );
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(black,transparent);
+    display: flex;
+}
+
+.rightside {
+    float: right;
+    width: 60%;
+    height: 300px;
+    color:white;
+    text-align: center;
+     margin-top: 80px; 
+     padding: 40px; 
+    padding-bottom: 10em;
+    align-items: center;
+    
+
+}
+
+.rightside h1 {
+    font-size: 4.8em;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    
+}
+
+.rightside p {
+    font-size: 1.4rem;
+    font-family: 'Knewave',cursive;
+    font-weight: lighter;
+    padding: 8px 0px;
+}
+
+ a:link {
+    color: blue;
+}
+
+ a:visited {
+    color: rgb(184, 182, 182);
+}
+
